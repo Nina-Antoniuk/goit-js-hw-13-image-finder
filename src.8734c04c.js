@@ -44,4 +44,4 @@ var e,n=arguments[3];!function(t){"object"==typeof exports&&"undefined"!=typeof 
 },{"@pnotify/core":"txz9","./refs":"VyiV","./create-markup":"oWe0","./modal":"RSqK"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("@pnotify/core/dist/BrightTheme.css");var e=require("lodash"),r=t(require("./js/refs")),a=require("./js/handlers");function t(e){return e&&e.__esModule?e:{default:e}}r.default.searchInput.addEventListener("input",(0,e.debounce)(a.imageLoadBtnHandler,500)),r.default.loaderBtn.addEventListener("click",a.loadMoreBtnHandler),r.default.gallery.addEventListener("click",a.imageClickHandler);
 },{"./sass/main.scss":"clu1","@pnotify/core/dist/BrightTheme.css":"clu1","lodash":"B1iE","./js/refs":"VyiV","./js/handlers":"kw6C"}]},{},["Focm"], null)
-//# sourceMappingURL=/parcel-project-template/src.8734c04c.js.map
+//# sourceMappingURL=/goit-js-hw-13-image-finder/src.8734c04c.js.map
